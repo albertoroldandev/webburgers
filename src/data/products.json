@@ -1,0 +1,375 @@
+{
+	"ingredients": [
+		{ "id": 0, "name": "Pan", "image": "bun-bottom.webp" },
+		{ "id": 1, "name": "Pan", "image": "bun-top.webp" },
+		{ "id": 2, "name": "Pan", "image": "bun-top-sesame.webp" },
+		{ "id": 3, "name": "Tortilla", "image": "tortilla.webp" },
+		{ "id": 4, "name": "Burger de Vacuno", "image": "burger-beef.webp" },
+		{ "id": 5, "name": "Burger de Vacuno", "image": "burger-beef-big.webp" },
+		{ "id": 6, "name": "Burger de Pollo", "image": "burger-chicken.webp" },
+		{ "id": 7, "name": "Burger de Pescado", "image": "burger-fish.webp" },
+		{ "id": 8, "name": "Pollo Crujiente", "image": "chicken.webp" },
+		{ "id": 9, "name": "Salsa de Bacon", "image": "sauce-bacon.webp" },
+		{ "id": 10, "name": "Salsa BBQ", "image": "sauce-bbq.webp" },
+		{ "id": 11, "name": "Salsa de Cheddar", "image": "sauce-cheddar.webp" },
+		{ "id": 12, "name": "Salsa CSS", "image": "sauce-css.webp" },
+		{ "id": 13, "name": "Salsa Ketchup", "image": "sauce-ketchup.webp" },
+		{ "id": 14, "name": "Salsa Mayonesa", "image": "sauce-mayonaise.webp" },
+		{ "id": 15, "name": "Salsa Mostaza", "image": "sauce-mustard.webp" },
+		{ "id": 16, "name": "Salsa Suprema", "image": "sauce-supreme.webp" },
+		{ "id": 17, "name": "Salsa Tártara", "image": "sauce-tartar.webp" },
+		{ "id": 18, "name": "Lechuga Iceberg", "image": "lettuce-iceberg.webp" },
+		{ "id": 19, "name": "Lechuga Batavia", "image": "lettuce-batavia.webp" },
+		{ "id": 20, "name": "Cebolla", "image": "onion.webp" },
+		{ "id": 21, "name": "Cebolla Crispy", "image": "onion-crispy.webp" },
+		{ "id": 22, "name": "Tomate", "image": "tomato.webp" },
+		{ "id": 23, "name": "Pepinillos", "image": "pickles.webp" },
+		{ "id": 24, "name": "Bacon", "image": "bacon.webp" },
+		{ "id": 25, "name": "Queso Cheddar", "image": "cheese-cheddar.webp" },
+		{ "id": 26, "name": "Queso Gouda", "image": "cheese-gouda.webp" },
+		{ "id": 27, "name": "Sirope de Chocolate", "image": "topping-chocolate.webp" },
+		{ "id": 28, "name": "Sirope de Chocolate Blanco", "image": "topping-white-chocolate.webp" },
+		{ "id": 29, "name": "Sirope de Caramelo", "image": "topping-caramel.webp" },
+		{ "id": 30, "name": "Topping de Cacahuetes", "image": "topping-peanuts.webp" },
+		{ "id": 31, "name": "Bebida Pequeña", "image": "glass-small.webp" },
+		{ "id": 32, "name": "Pan de Patata", "image": "bun-potato.webp" }
+	],
+	"extra": [
+		{ "id": 0, "name": "Extra Ketchup", "price": 0.35, "image": "sauce-ketchup.webp" },
+		{ "id": 1, "name": "Extra Mayonesa", "price": 0.35, "image": "sauce-mayonaise.webp" },
+		{ "id": 2, "name": "Extra Mostaza", "price": 0.35, "image": "sauce-mustard.webp" },
+		{ "id": 3, "name": "Extra BBQ", "price": 0.35, "image": "sauce-bbq.webp" },
+		{ "id": 4, "name": "Extra Queso", "price": 0.50, "image": "cheese-cheddar.webp" },
+		{ "id": 5, "name": "Extra Bacon", "price": 0.70, "image": "bacon.webp" },
+		{ "id": 6, "name": "Sirope de Chocolate", "price": 0.30, "image": "topping-chocolate.webp" },
+		{ "id": 7, "name": "Sirope de Chocolate Blanco", "price": 0.30, "image": "topping-white-chocolate.webp" },
+		{ "id": 8, "name": "Sirope de Caramelo", "price": 0.30, "image": "topping-caramel.webp" },
+		{ "id": 9, "name": "Topping de Cacahuetes", "price": 0.40, "image": "topping-peanuts.webp" },
+		{ "id": 10, "name": "Bebida Grande", "price": 0.50, "image": "glass-big.webp" }
+	],
+	"burgers": [
+		{
+			"id": 0,
+			"name": "Mega Burger",
+			"price": 5.95,
+			"image": "burger-mega.webp",
+			"ingredients": [2, 16, 18, 20, 23, 25, 4, 4, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 1,
+			"name": "Quarter Burger",
+			"price": 4.50,
+			"image": "burger-mega.webp",
+			"ingredients": [2, 15, 13, 20, 23, 25, 5, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 2,
+			"name": "Deluxe Burger",
+			"price": 4.95,
+			"image": "burger-deluxe.webp",
+			"ingredients": [2, 14, 19, 22, 25, 5, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 3,
+			"name": "CSS Burger",
+			"price": 5.50,
+			"image": "burger-css.webp",
+			"ingredients": [2, 12, 19, 21, 25, 6, 24, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 4,
+			"name": "Crispy Burger",
+			"price": 5.25,
+			"image": "burger-crispy.webp",
+			"ingredients": [32, 12, 19, 22, 25, 8, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 5,
+			"name": "Xtreme Bacon Burger",
+			"price": 6.25,
+			"image": "burger-xtreme-bacon.webp",
+			"ingredients": [2, 9, 20, 24, 26, 5, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 6,
+			"name": "Xtreme Cheddar Burger",
+			"price": 6.00,
+			"image": "burger-xtreme-cheddar.webp",
+			"ingredients": [2, 11, 21, 24, 25, 5, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 7,
+			"name": "Burger",
+			"price": 3.25,
+			"image": "burger.webp",
+			"ingredients": [1, 15, 13, 20, 23, 4, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 8,
+			"name": "Cheese Burger",
+			"price": 3.75,
+			"image": "burger-cheese.webp",
+			"ingredients": [1, 15, 13, 20, 23, 25, 4, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 9,
+			"name": "Chicken Kids Burger",
+			"price": 2.95,
+			"image": "burger-chicken-kids.webp",
+			"ingredients": [1, 13, 6, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 10,
+			"name": "Chicken Mayo Burger",
+			"price": 4.00,
+			"image": "burger-chicken-mayo.webp",
+			"ingredients": [1, 14, 18, 6, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 11,
+			"name": "Chicken BBQ Burger",
+			"price": 4.25,
+			"image": "burger-chicken-bbq.webp",
+			"ingredients": [1, 10, 18, 6, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 12,
+			"name": "Chicken Cheese Burger",
+			"price": 4.50,
+			"image": "burger-chicken-cheese.webp",
+			"ingredients": [1, 10, 18, 25, 6, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 13,
+			"name": "Fish Burger",
+			"price": 3.75,
+			"image": "burger-fish.webp",
+			"ingredients": [1, 13, 7, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 14,
+			"name": "Fish Cheese Burger",
+			"price": 4.50,
+			"image": "burger-fish-cheese.webp",
+			"ingredients": [1, 17, 25, 7, 0],
+			"extra": [4, 5]
+		},
+		{
+			"id": 15,
+			"name": "Wrap CSS",
+			"price": 5.75,
+			"image": "burger-wrap-css.webp",
+			"ingredients": [12, 19, 22, 25, 24, 8, 3],
+			"extra": [4, 5]
+		}
+	],
+	"sides": [
+		{
+			"id": 0,
+			"name": "Patatas Pequeñas",
+			"price": 2.25,
+			"image": "sides-fries.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 1,
+			"name": "Patatas Deluxe Pequeñas",
+			"price": 2.50,
+			"image": "sides-fries-deluxe.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 2,
+			"name": "Patatas Grandes",
+			"price": 2.75,
+			"image": "sides-fries-big.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 3,
+			"name": "Patatas Deluxe Grandes",
+			"price": 3.00,
+			"image": "sides-fries-deluxe-big.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 4,
+			"name": "Bacon Cheese Fries Individual",
+			"price": 3.75,
+			"image": "sides-bacon-cheese-fries.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 5,
+			"name": "Bacon Cheese Fries Deluxe Individual",
+			"price": 4.25,
+			"image": "sides-bacon-cheese-fries-deluxe.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 6,
+			"name": "Bacon Cheese Fries Compartir",
+			"price": 5.50,
+			"image": "sides-bacon-cheese-fries-big.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 7,
+			"name": "Bacon Cheese Fries Deluxe Compartir",
+			"price": 6.25,
+			"image": "sides-bacon-cheese-fries-deluxe-big.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 8,
+			"name": "Alitas de Pollo Picantes",
+			"price": 4.95,
+			"image": "sides-chicken-wings.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 9,
+			"name": "Nuggets de Pollo",
+			"price": 4.25,
+			"image": "sides-nuggets.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 10,
+			"name": "Chicken Bites",
+			"price": 3.50,
+			"image": "sides-chicken-bites.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 11,
+			"name": "Box Nuggets Compartir",
+			"price": 8.50,
+			"image": "sides-box-nuggets.webp",
+			"extra": [0, 1, 2, 3]
+		},
+		{
+			"id": 12,
+			"name": "Box Nuggets y Alitas Compartir",
+			"price": 9.95,
+			"image": "sides-box-nuggets-wings.webp",
+			"extra": [0, 1, 2, 3]
+		}
+	],
+	"drinks": [
+		{
+			"id": 0,
+			"name": "Refresco de Cola",
+			"price": 1.95,
+			"image": "drinks-cola.webp",
+			"extra": [10]
+		},
+		{
+			"id": 1,
+			"name": "Refresco de Naranja",
+			"price": 1.95,
+			"image": "drinks-orange.webp",
+			"extra": [10]
+		},
+		{
+			"id": 2,
+			"name": "Refresco de Limón",
+			"price": 1.95,
+			"image": "drinks-lemon.webp",
+			"extra": [10]
+		},
+		{
+			"id": 3,
+			"name": "Té de Limón",
+			"price": 2.00,
+			"image": "drinks-lemon-tea.webp",
+			"extra": [10]
+		},
+		{
+			"id": 4,
+			"name": "Cerveza",
+			"price": 2.50,
+			"image": "drinks-beer.webp",
+			"extra": [10]
+		},
+		{
+			"id": 5,
+			"name": "Agua",
+			"price": 1.50,
+			"image": "drinks-water.webp",
+			"extra": [10]
+		}
+	],
+	"desserts": [
+		{
+			"id": 0,
+			"name": "Frosty Chocolate",
+			"price": 3.50,
+			"image": "desserts-frosty-chocolate.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 1,
+			"name": "Frosty Chocolate Blanco",
+			"price": 3.50,
+			"image": "desserts-frosty-white-chocolate.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 2,
+			"name": "Frosty Cookie Caramel",
+			"price": 3.75,
+			"image": "desserts-frosty-cookie-caramel.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 3,
+			"name": "Frosty Cookie Chocolate",
+			"price": 3.75,
+			"image": "desserts-frosty-cookie-chocolate.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 4,
+			"name": "Helado Chocolate",
+			"price": 2.25,
+			"image": "desserts-ice-cream-chocolate.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 5,
+			"name": "Helado Chocolate Blanco",
+			"price": 2.25,
+			"image": "desserts-ice-cream-white-chocolate.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 6,
+			"name": "Helado Caramelo",
+			"price": 2.25,
+			"image": "desserts-ice-cream-caramel.webp",
+			"extra": [6, 7, 8, 9]
+		},
+		{
+			"id": 7,
+			"name": "Apple Pie",
+			"price": 1.95,
+			"image": "desserts-apple-pie.webp",
+			"extra": [6, 7, 8, 9]
+		}
+	]
+}
